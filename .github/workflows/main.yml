@@ -30,5 +30,7 @@ jobs:
         with:
           github_token: ${{ secrets.SECRETNAME }}
           repository-name: https://ml-decoder/ml-decoder.github.io
-          publish_dir: ./public
-          publish_branch: main
+          branch: master # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.
+          single-commit: true
+          commit-message: "Deploy by source"
