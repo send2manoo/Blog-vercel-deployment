@@ -6,9 +6,8 @@ on:
       - main  # Set a branch to deploy
   pull_request:
 
-
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
@@ -25,13 +24,12 @@ jobs:
       - name: Build
         run: hugo --minify
 
-    # Deploy the Static Site to Public Repo (GitHub Pages)
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.3.3
-      with:
-        token:  ${{ secrets.SEND2MANOO_DEPLOY_TOKEN }}
-        repository-name: send2manoo/send2manoo.github.io
-        branch: master # The branch the action should deploy to.
-        folder: public # The folder the action should deploy.
-        single-commit: true
-        commit-message: "Deploy by source"
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        with:
+          github_token: ${{ secrets.SEND2MANOO_DEPLOY_TOKEN }}
+          repository-name: send2manoo/send2manoo.github.io
+          branch: main # The branch the action should deploy to.
+          publish_dir: ./public # The folder the action should deploy.
+          single-commit: true
+          commit-message: "Deploy by source"
