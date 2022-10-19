@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://send2manoo.github.io/sitemap.xml

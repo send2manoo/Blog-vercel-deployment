@@ -1,0 +1,19 @@
+<!-- // Commented by Manohar Oct 8 18:10 PM -->
+<!-- <img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} /> -->
+
+<!-- Begin add by manohar for feature/zoom Oct 8 17:48 PM -->
+<!-- Checks if page is part of section and page is not section itself -->
+{{- if and (ne .Page.Kind "section") (.Page.Section ) }}
+    <!-- Generate a unique id for each image -->
+    {{- $random := (substr (md5 .Destination) 0 5) }}
+    <input type="checkbox" id="zoomCheck-{{$random}}" hidden>
+    <label for="zoomCheck-{{$random}}">
+        <img class="zoomCheck" loading="lazy" decoding="async"
+            src="{{ .Destination | safeURL }}" alt="{{ .Text }}"
+            {{ with.Title}} title="{{ . }}" {{ end }} />
+    </label>
+{{- else }}
+    <img loading="lazy" decoding="async" src="{{ .Destination | safeURL }}"
+        alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{- end }}
+<!-- End add by manohar for feature/zoom Oct 8 17:48 PM -->
