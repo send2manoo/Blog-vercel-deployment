@@ -114,8 +114,8 @@ menu:
     - name: Tags
       url: tags/
       weight: 10
-    - name: Search
-      url: search/
+    - name: Categories
+      url: categories/
       weight: 15
     - name: About
       url: about/
