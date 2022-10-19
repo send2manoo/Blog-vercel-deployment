@@ -24,16 +24,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
-  # just for logging the Repo name and branch
-      - name: Log Repo
-        run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - name: Log Branch
-        run: echo " current branch  is ${{ github.ref }} "
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.MLDECODER }}
-          repository-name: ml-decoder/ml-decoder.github.io
+          repository-name: https://ml-decoder/ml-decoder.github.io
           publish_dir: ./public
-          publish_branch: main
+          publish_branch: master
