@@ -24,11 +24,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
-
+        # Deploy the Static Site to Public Repo (GitHub Pages)
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
         with:
-          github_token: ${{ secrets.SECRETNAME }}
+          token:  ${{ secrets.SECRETNAME }}
           repository-name: https://ml-decoder/ml-decoder.github.io
           branch: master # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
