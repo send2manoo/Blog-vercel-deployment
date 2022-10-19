@@ -28,7 +28,7 @@ jobs:
       - name: Log Repo
         run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - name: Log Branch
-        run: echo " MANOHAR : current branch  is ${{ github.ref }} "
+        run: echo " current branch  is ${{ github.ref }} "
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
