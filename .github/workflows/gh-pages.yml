@@ -33,4 +33,4 @@ jobs:
           branch: gh-pages # The branch the action should deploy to.
           folder: public # The folder the action should deploy.
           single-commit: true
-          commit-message: "Deploy by source(Manohar) on OCT 14:29 PM"
+          commit-message: "Added Feature/Tidio Chat bot on OCT 19 15:11 PM"
