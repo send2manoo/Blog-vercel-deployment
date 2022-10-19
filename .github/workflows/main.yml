@@ -31,4 +31,4 @@ jobs:
           github_token: ${{ secrets.SECRETNAME }}
           repository-name: https://ml-decoder/ml-decoder.github.io
           publish_dir: ./public
-          publish_branch: master
+          publish_branch: main
