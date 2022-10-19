@@ -24,13 +24,16 @@ jobs:
       - name: Build
         run: hugo --minify
 
+  # just for logging the Repo name and branch
+      - name: Log Repo
+        run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
+      - name: Log Branch
+        run: echo " MANOHAR : current branch  is ${{ github.ref }} "
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          repository-name: send2manoo/send2manoo.github.io
-          branch: main
+          github_token: ${{ secrets.MLDECODER }}
+          repository-name: ml-decoder/ml-decoder.github.io
           publish_dir: ./public
-          single-commit: true
-          commit-message: "Deploy by source"
+          publish_branch: main
