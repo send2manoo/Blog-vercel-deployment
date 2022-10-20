@@ -83,6 +83,8 @@ int main() {
 
   Automate to deploy our code to UAT(User Acceptance Testing) to AWS
 
-![https://ik.imagekit.io/wrdkwox8l/ci-cd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1665898283493](https://ik.imagekit.io/wrdkwox8l/ci-cd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1665898283493)
+![https://ik.imagekit.io/wrdkwox8l/posts/ci-cd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1665912410896](https://ik.imagekit.io/wrdkwox8l/posts/ci-cd.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1665912410896)
+
+
 
 ![https://ik.imagekit.io/wrdkwox8l/github-actions.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665898070755](https://ik.imagekit.io/wrdkwox8l/github-actions.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665898070755)
