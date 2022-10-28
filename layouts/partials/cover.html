@@ -21,7 +21,7 @@ https://github.com/adityatelange/hugo-PaperMod/pull/861/files#diff-60a997d23ac27
 {{- end }}
 
 <!-- Code Modified by manohar for Bug/Single Page image is not aligned on Oct 29 Sat 00:22 AM -->
-<figure class="entry-cover" style="margin: 0px; margin-right: 20px; height: auto;">
+<figure class="entry-cover" style="margin: 0px; margin-right: 10px; margin-left: 10px; height: auto;">
 
     {{- $responsiveImages := (.Params.cover.responsiveImages | default .Site.Params.cover.responsiveImages) | default true }}
     {{- $addLink := (and .Site.Params.cover.linkFullImages (not $.IsHome)) }}
