@@ -1,3 +1,9 @@
+<!--
+Link added by manohar feature/thumbnail view in Homepage on oct 28 Fri 21:44 PM
+https://github.com/adityatelange/hugo-PaperMod/pull/861/
+https://github.com/adityatelange/hugo-PaperMod/pull/861/files#diff-60a997d23ac27be451cb637c403e672d181a48197e6ad34e5f84096acca1f56d
+-->
+
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
@@ -9,7 +15,7 @@
         }
 
         figure {
-            width: 20%;
+            width: 40%;
         }
     </style>
 {{- end }}
@@ -42,7 +48,12 @@
     {{- else }}{{/* For absolute urls and external links, no img processing here */}}
         {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
             rel="noopener noreferrer">{{ end -}}
-            <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+
+            <!-- Begin added by manohar for Bug/hyperlink embed on img tag on Oct 28 Fri 21:32 PM -->
+            <a href="{{ (.RelPermalink) | absURL }}" >
+            <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}"></a>
+            <!-- End added by manohar for Bug/hyperlink embed on img tag on Oct 28 Fri 21:32 PM -->
+
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
     {{/*  Display Caption  */}}
