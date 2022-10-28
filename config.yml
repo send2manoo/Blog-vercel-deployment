@@ -53,8 +53,8 @@ params:
 
   label:
     text: "Home"
-    # icon: favicons/apple-touch-icon.png
-    # iconHeight: 35
+    icon: favicons/apple-touch-icon.png
+    iconHeight: 50
 
   # home-info mode
   homeInfoParams:
