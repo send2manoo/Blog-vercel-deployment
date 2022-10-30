@@ -6,6 +6,8 @@ author: "Manohar Palanisamy"
 language: "en"
 location: "IN"
 description: Text about this post
+tags: ["Git"]
+categories: ["Git"]
 cover:
   image: "/posts/test-post/images/GitHub.jpg"
   #image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
@@ -25,6 +27,21 @@ hikingdasadasdadsdsdasdasdasdadaddadsadadsdsadaddsadasdad
 sadda
 hikingdasadasdadsdsdasdasdasdadaddadsadadsdsadaddsadasdaddasada
 
+{{< notice warning >}}
+This is a warning notice. Be warned!
+{{< /notice >}}
 
 adasddaffwfwfw
 fwfwfewfwfefwfw
+
+{{< notice tip >}}
+This is a very good tip.
+{{< /notice >}}
+
+{{< notice info >}}
+This is a very good tip.
+{{< /notice >}}
+
+{{< notice note >}}
+This is a very good tip.
+{{< /notice >}}
