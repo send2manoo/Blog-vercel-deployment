@@ -4,3 +4,6 @@
 [submodule "themes/hugo-notice"]
 	path = themes/hugo-notice
 	url = https://github.com/send2manoo/hugo-notice.git
+[submodule "content"]
+	path = content
+	url = https://github.com/send2manoo/content.git
