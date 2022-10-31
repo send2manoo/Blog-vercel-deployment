@@ -24,7 +24,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-          ssh-key: ${{ secrets.SUBMODULE_CONTENT_DEPLOY_KEY }}
+          ssh-key: ${{ secrets.REPOTOKEN }}
           submodules: recursive  # Fetch private content
 
     # Initiate deployment status
