@@ -26,20 +26,8 @@ cover:
 
 <!-- {{< figure src="/posts/mongodb/images/svm.jpg" title="Steve Francia" >}} -->
 
-```
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Example HTML5 Document</title>
-    </head>
-    <body>
-        <p>Test</p>
-    </body>
-</html>
-```
 
-```
+{{< highlight c "linenos=table" >}}
 #include <stdio.h>
 int main() {
    int i, space, rows, k = 0;
@@ -57,7 +45,7 @@ int main() {
    }
    return 0;
 }
-```
+{{< /highlight >}}
 
 ## code practise
 

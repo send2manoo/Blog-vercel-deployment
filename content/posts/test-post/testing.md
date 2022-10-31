@@ -1,34 +1,57 @@
 ---
-title: "Arch"
-date: 2022-10-17T09:04:19+05:30
+title: "Testing"
+date: 2022-10-31T08:08:59+05:30
 draft: false
 author: "Manohar Palanisamy"
 language: "en"
 location: "IN"
-description: Text about this post
-tags: ["Git"]
-categories: ["Git"]
-cover:
-  image: "/posts/test-post/images/GitHub.jpg"
-  #image: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
-  # can also paste direct link from external site
-  # ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-  caption: "github"
 ---
 
-**hello**
+{{< highlight java "style=github, linenos=inline, hl_lines=6" >}}
+class Graph {
 
-```Plain
-some code
+  // inner class
+  // to keep track of edges
+  class Edge {
+    int src, dest;
+  }
+
+  // number of vertices and edges
+  int vertices, edges;
+
+  // array to store all edges
+  Edge[] edge;
+
+  Graph(int vertices, int edges) {
+    this.vertices = vertices;
+    this.edges = edges;
+
+    // initialize the edge array
+    edge = new Edge[edges];
+    for(int i = 0; i < edges; i++) {
+
+      // each element of the edge array
+      // is an object of Edge type
+      edge[i] = new Edge();
+    }
+  }
+{{< /highlight >}}
+
+
+```python
+print(f"Numpy: {np.__version__}")
 ```
 
-```Shell
-# some code
-echo "Hello world"
+```c++
+cin >> a;
+cout << a << "hello";
 ```
 
+```c
+printf("%d",a);
+```
 
-{{< highlight java "linenos=table, linenostart=1" >}}
+```java
 class Graph {
 
   // inner class
@@ -96,34 +119,4 @@ class Graph {
 
   }
 }
-{{< / highlight >}}
-
-{{< gist spf13 7896402 >}}
-
-{{< highlight javascript "linenos=table" >}}
-function addOne(number) {
-    return number + 1;
-}
-{{< /highlight >}}
-
-
-{{< highlight Shell "linenos=table" >}}
-# some code
-echo "Hello World"
-{{< /highlight >}}
-
-{{< notice warning >}}
-This is a warning notice. Be warned!
-{{< /notice >}}
-
-{{< notice tip >}}
-This is a very good tip.
-{{< /notice >}}
-
-{{< notice info >}}
-This is a very good tip.
-{{< /notice >}}
-
-{{< notice note >}}
-This is a very good tip.
-{{< /notice >}}
+```
