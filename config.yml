@@ -1,4 +1,4 @@
-baseURL: "https://example.com/"
+baseURL: "https://blog-vercel-test-deployment.vercel.app"
 title: Manohar's Blog
 paginate: 5
 theme: ["hugo-notice", "PaperMod"] # Modified/Updated feature/hugo-notice tip by manohar on OCT 30 14:47 PM
