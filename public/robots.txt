@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://blog-vercel-test-deployment.vercel.app/sitemap.xml
