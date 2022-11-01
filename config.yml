@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-data-ackee-domain-id: 31a427b0-e2ab-4389-8ce3-0a164f19e449
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
