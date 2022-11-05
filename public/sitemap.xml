@@ -2,19 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blog-vercel-test-deployment.vercel.app/posts/github-public/</loc>
-    <lastmod>2022-10-30T13:14:51+05:30</lastmod>
+    <loc>https://blog-vercel-test-deployment.vercel.app/categories/</loc>
   </url><url>
     <loc>https://blog-vercel-test-deployment.vercel.app/</loc>
-    <lastmod>2022-10-30T13:14:51+05:30</lastmod>
-  </url><url>
-    <loc>https://blog-vercel-test-deployment.vercel.app/posts/</loc>
-    <lastmod>2022-10-30T13:14:51+05:30</lastmod>
-  </url><url>
-    <loc>https://blog-vercel-test-deployment.vercel.app/posts/test/</loc>
-    <lastmod>2022-10-30T13:14:51+05:30</lastmod>
-  </url><url>
-    <loc>https://blog-vercel-test-deployment.vercel.app/categories/</loc>
   </url><url>
     <loc>https://blog-vercel-test-deployment.vercel.app/tags/</loc>
   </url>
