@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://decodeai.in/sitemap.xml

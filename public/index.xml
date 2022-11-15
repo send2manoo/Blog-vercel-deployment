@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Manohar&#39;s Blog</title>
-    <link>https://blog-vercel-test-deployment.vercel.app/</link>
+    <link>https://decodeai.in/</link>
     <description>Recent content on Manohar&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://blog-vercel-test-deployment.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 30 Oct 2022 13:14:51 +0530</lastBuildDate><atom:link href="https://decodeai.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check submodule</title>
+      <link>https://decodeai.in/posts/github-public/</link>
+      <pubDate>Sun, 30 Oct 2022 13:14:51 +0530</pubDate>
+      
+      <guid>https://decodeai.in/posts/github-public/</guid>
+      <description>Why should I have a website?
+HELLO MANOHAR GREAT!!:)
+It’s hard to imagine anyone who wouldn’t benefit from having a website! You might need to display your portfolio for potential clients or employers. You might need to organize your projects in a way that you can share. You may want to create a blog about the things you’re doing or the places you’ve been. You might need to advertise yourself or your business or sell a product.</description>
+    </item>
+    
+    <item>
+      <title>test submodule</title>
+      <link>https://decodeai.in/posts/test/</link>
+      <pubDate>Sun, 30 Oct 2022 13:14:51 +0530</pubDate>
+      
+      <guid>https://decodeai.in/posts/test/</guid>
+      <description>Let’s get this party started! Manohar&amp;hellip; Magic
+In a nutshell, a repository is where your project will live. It’s where you’ll organize your project. You’ll keep folders, files, images, videos, spreadsheets, Jupyter notebooks, data sets, and anything else your project needs in your repository.
+Warning
+This is a warning notice. Be warned!</description>
+    </item>
+    
   </channel>
 </rss>
